@@ -1,34 +1,47 @@
-﻿Imports System.Data
+Imports System.Data
 Imports System.Data.SqlClient
+Imports System.Web.Configuration
 
 Partial Class CreateSurvey
     Inherits System.Web.UI.Page
 
-    Dim con As New SqlConnection("Data Source=DESKTOP-6IIQ3JH\SQLEXPRESS;Initial Catalog=SurveyDB;Integrated Security=True;TrustServerCertificate=True")
+    Dim con As New SqlConnection(WebConfigurationManager.ConnectionStrings("SurveyDBConnection").ConnectionString)
 
-    Private Sub CreateTable()
-        Dim dt As New DataTable()
-        dt.Columns.Add("Question")
-        dt.Columns.Add("Type")
-        dt.Columns.Add("Opt1")
-        dt.Columns.Add("Opt2")
-        dt.Columns.Add("Opt3")
-        dt.Columns.Add("Opt4")
-        ViewState("Questions") = dt
-    End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs)
+    Protected Function GetTable() As DataTable
+
+        If ViewState("Questions") Is Nothing Then
+            Dim dt As New DataTable()
+            dt.Columns.Add("Question")
+            dt.Columns.Add("Type")
+            dt.Columns.Add("Opt1")
+            dt.Columns.Add("Opt2")
+            dt.Columns.Add("Opt3")
+            dt.Columns.Add("Opt4")
+
+            ViewState("Questions") = dt
+
+        End If
+
+        Return CType(ViewState("Questions"), DataTable)
+
+    End Function
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Session("UserRole") Is Nothing OrElse Session("UserRole").ToString() <> "Builder" Then
             Response.Redirect("Login.aspx")
         End If
 
+        lblUserRole.Text = Session("UserRole").ToString()
+
         If Not IsPostBack Then
-            CreateTable()
+            GetTable()
         End If
     End Sub
 
     Protected Sub btnAdd_Click(sender As Object, e As EventArgs)
-        Dim dt As DataTable = CType(ViewState("Questions"), DataTable)
+
+        Dim dt As DataTable = GetTable()
 
         Dim row As DataRow = dt.NewRow()
         row("Question") = txtQuestion.Text
@@ -41,18 +54,14 @@ Partial Class CreateSurvey
         dt.Rows.Add(row)
 
         ViewState("Questions") = dt
+
         gvQuestions.DataSource = dt
         gvQuestions.DataBind()
 
-        txtQuestion.Text = ""
-        txtOption1.Text = ""
-        txtOption2.Text = ""
-        txtOption3.Text = ""
-        txtOption4.Text = ""
     End Sub
 
     Protected Sub btnSaveSurvey_Click(sender As Object, e As EventArgs)
-        Dim dt As DataTable = CType(ViewState("Questions"), DataTable)
+        Dim dt As DataTable = GetTable()
 
         con.Open()
 
@@ -98,8 +107,25 @@ Partial Class CreateSurvey
         lblMsg.Text = "Survey Saved Successfully!"
         gvQuestions.DataSource = Nothing
         gvQuestions.DataBind()
-        CreateTable()
+        ViewState("Questions") = Nothing
+        GetTable()
         txtSurveyTitle.Text = ""
     End Sub
 
-End Class
+    Protected Sub btnDashboard_Click(sender As Object, e As EventArgs)
+        Dim role As String = Session("UserRole").ToString()
+        If role = "Admin" Then
+            Response.Redirect("AdminDashboard.aspx")
+        ElseIf role = "Builder" Then
+            Response.Redirect("BuilderDashboard.aspx")
+        ElseIf role = "Surveyor" Then
+            Response.Redirect("SurveyorDashboard.aspx")
+        End If
+    End Sub
+
+    Protected Sub btnLogout_Click(sender As Object, e As EventArgs)
+        Session.Clear()
+        Response.Redirect("Login.aspx")
+    End Sub
+
+End Class

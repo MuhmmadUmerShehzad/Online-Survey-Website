@@ -1,11 +1,12 @@
-﻿Imports System.Data.SqlClient
+Imports System.Data.SqlClient
 Imports System.Diagnostics
+Imports System.Web.Configuration
 
 Partial Class Login
     Inherits System.Web.UI.Page
 
-    ' Change connection string according to your setup
-    Dim con As New SqlConnection("Data Source=DESKTOP-6IIQ3JH\SQLEXPRESS;Initial Catalog=SurveyDB;Integrated Security=True;TrustServerCertificate=True")
+    ' Connection string retrieved from Web.config
+    Dim con As New SqlConnection(WebConfigurationManager.ConnectionStrings("SurveyDBConnection").ConnectionString)
 
     Protected Sub btnLogin_Click(sender As Object, e As EventArgs)
 
@@ -20,7 +21,7 @@ Partial Class Login
         Try
             con.Open()
 
-            Dim query As String = "SELECT UserID, UserRole FROM Users WHERE UserName=@username AND UserPassword=@password"
+            Dim query As String = "SELECT UserID, UserRole FROM Users WHERE                 UserName=@username AND UserPassword=@password"
             Dim cmd As New SqlCommand(query, con)
 
             cmd.Parameters.AddWithValue("@username", username)
@@ -30,7 +31,6 @@ Partial Class Login
 
             If reader.Read() Then
 
-                Debug.WriteLine(reader)
                 ' Store session
                 Session("UserID") = reader("UserID").ToString()
                 Session("UserRole") = reader("UserRole").ToString()
