@@ -34,6 +34,7 @@ Partial Class Login
                 ' Store session
                 Session("UserID") = reader("UserID").ToString()
                 Session("UserRole") = reader("UserRole").ToString()
+                Session("UserName") = username
 
                 Dim role As String = reader("UserRole").ToString()
 
