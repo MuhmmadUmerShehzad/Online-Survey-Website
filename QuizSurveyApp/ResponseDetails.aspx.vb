@@ -26,12 +26,12 @@ Partial Class ResponseDetails
     Private Sub LoadDetails(responseID As String)
         Try
             ' Get Header Info
-            Dim queryHeader As String = "SELECT s.Title, ISNULL(u.UserName, 'Anonymous') AS UserName, r.ResponseDate " & _
-                                       "FROM Responses r " & _
-                                       "JOIN Surveys s ON r.SurveyID = s.SurveyID " & _
-                                       "LEFT JOIN Users u ON r.UserID = u.UserID " & _
+            Dim queryHeader As String = "SELECT s.Title, ISNULL(u.UserName, 'Anonymous') AS UserName, r.ResponseDate " &
+                                       "FROM Responses r " &
+                                       "JOIN Surveys s ON r.SurveyID = s.SurveyID " &
+                                       "LEFT JOIN Users u ON r.UserID = u.UserID " &
                                        "WHERE r.ResponseID = @rid"
-            
+
             Dim cmdHeader As New SqlCommand(queryHeader, con)
             cmdHeader.Parameters.AddWithValue("@rid", responseID)
             

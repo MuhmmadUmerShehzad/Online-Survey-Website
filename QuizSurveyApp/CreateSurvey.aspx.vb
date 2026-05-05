@@ -39,6 +39,22 @@ Partial Class CreateSurvey
         End If
     End Sub
 
+    Protected Sub ddlType_SelectedIndexChanged(sender As Object, e As EventArgs)
+        If ddlType.SelectedValue = "TrueFalse" Then
+            pnlExtraOptions.Visible = False
+            txtOption1.Text = "True"
+            txtOption2.Text = "False"
+            txtOption1.ReadOnly = True
+            txtOption2.ReadOnly = True
+        Else
+            pnlExtraOptions.Visible = True
+            txtOption1.Text = ""
+            txtOption2.Text = ""
+            txtOption1.ReadOnly = False
+            txtOption2.ReadOnly = False
+        End If
+    End Sub
+
     Protected Sub btnAdd_Click(sender As Object, e As EventArgs)
 
         Dim dt As DataTable = GetTable()
@@ -57,6 +73,17 @@ Partial Class CreateSurvey
 
         gvQuestions.DataSource = dt
         gvQuestions.DataBind()
+
+        ' Clear fields
+        txtQuestion.Text = ""
+        txtOption1.Text = ""
+        txtOption2.Text = ""
+        txtOption3.Text = ""
+        txtOption4.Text = ""
+        ddlType.SelectedIndex = 0
+        pnlExtraOptions.Visible = True
+        txtOption1.ReadOnly = False
+        txtOption2.ReadOnly = False
 
     End Sub
 
@@ -128,4 +155,4 @@ Partial Class CreateSurvey
         Response.Redirect("Login.aspx")
     End Sub
 
-End Class
+End Class

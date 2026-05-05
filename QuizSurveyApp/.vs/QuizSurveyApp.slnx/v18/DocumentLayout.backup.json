@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\createsurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:createsurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TakeSurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\responsedetails.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:responsedetails.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\surveyordashboard.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:surveyordashboard.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\viewsurveys.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:viewsurveys.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\viewsurveys.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:viewsurveys.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:login.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\viewresponses.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:viewresponses.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:TakeSurvey.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|d:\\coding\\iad_github\\survey web app\\online-survey-website\\quizsurveyapp\\takesurvey.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5D7C9435-A8DA-4CC7-82C8-40D8FB1D34BE}|D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp|solutionrelative:takesurvey.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +50,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateSurvey.aspx.vb",
+              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\CreateSurvey.aspx.vb",
+              "RelativeDocumentMoniker": "CreateSurvey.aspx.vb",
+              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\CreateSurvey.aspx.vb",
+              "RelativeToolTip": "CreateSurvey.aspx.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-05T06:01:22.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ResponseDetails.aspx.vb",
+              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ResponseDetails.aspx.vb",
+              "RelativeDocumentMoniker": "ResponseDetails.aspx.vb",
+              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ResponseDetails.aspx.vb",
+              "RelativeToolTip": "ResponseDetails.aspx.vb",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-05T05:58:00.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SurveyorDashboard.aspx.vb",
+              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\SurveyorDashboard.aspx.vb",
+              "RelativeDocumentMoniker": "SurveyorDashboard.aspx.vb",
+              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\SurveyorDashboard.aspx.vb",
+              "RelativeToolTip": "SurveyorDashboard.aspx.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-05T05:57:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TakeSurvey.aspx",
+              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx",
+              "RelativeDocumentMoniker": "TakeSurvey.aspx",
+              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx",
+              "RelativeToolTip": "TakeSurvey.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-05-05T05:53:24.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TakeSurvey.aspx.vb",
               "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx.vb",
               "RelativeDocumentMoniker": "TakeSurvey.aspx.vb",
               "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\TakeSurvey.aspx.vb",
               "RelativeToolTip": "TakeSurvey.aspx.vb",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAkwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-03T17:56:26.292Z",
               "EditorCaption": ""
@@ -52,38 +116,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ViewSurveys.aspx",
-              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ViewSurveys.aspx",
-              "RelativeDocumentMoniker": "ViewSurveys.aspx",
-              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ViewSurveys.aspx",
-              "RelativeToolTip": "ViewSurveys.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-29T06:48:30.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\Login.aspx",
-              "RelativeDocumentMoniker": "Login.aspx",
-              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\Login.aspx",
-              "RelativeToolTip": "Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-27T18:47:04.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Login.aspx.vb",
               "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\Login.aspx.vb",
               "RelativeDocumentMoniker": "Login.aspx.vb",
               "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\Login.aspx.vb",
               "RelativeToolTip": "Login.aspx.vb",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-04-27T18:47:04.301Z",
               "EditorCaption": ""
@@ -96,9 +134,22 @@
               "RelativeDocumentMoniker": "ViewSurveys.aspx.vb",
               "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ViewSurveys.aspx.vb",
               "RelativeToolTip": "ViewSurveys.aspx.vb",
-              "ViewState": "AgIAACoAAAAAAAAAAAAgwEkAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-04-27T18:42:29.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ViewResponses.aspx.vb",
+              "DocumentMoniker": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ViewResponses.aspx.vb",
+              "RelativeDocumentMoniker": "ViewResponses.aspx.vb",
+              "ToolTip": "D:\\Coding\\IAD_github\\Survey Web App\\Online-Survey-Website\\QuizSurveyApp\\ViewResponses.aspx.vb",
+              "RelativeToolTip": "ViewResponses.aspx.vb",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-05T05:54:24.805Z",
               "EditorCaption": ""
             }
           ]

@@ -26,7 +26,7 @@
         <br /><br />
 
         <!-- Question Type -->
-        <asp:DropDownList ID="ddlType" runat="server">
+        <asp:DropDownList ID="ddlType" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlType_SelectedIndexChanged">
             <asp:ListItem Text="MCQ" Value="MCQ"></asp:ListItem>
             <asp:ListItem Text="True/False" Value="TrueFalse"></asp:ListItem>
         </asp:DropDownList>
@@ -35,8 +35,11 @@
         <!-- Options (for MCQ) -->
         <asp:TextBox ID="txtOption1" runat="server" Placeholder="Option 1"></asp:TextBox><br />
         <asp:TextBox ID="txtOption2" runat="server" Placeholder="Option 2"></asp:TextBox><br />
-        <asp:TextBox ID="txtOption3" runat="server" Placeholder="Option 3"></asp:TextBox><br />
-        <asp:TextBox ID="txtOption4" runat="server" Placeholder="Option 4"></asp:TextBox>
+        
+        <asp:Panel ID="pnlExtraOptions" runat="server">
+            <asp:TextBox ID="txtOption3" runat="server" Placeholder="Option 3"></asp:TextBox><br />
+            <asp:TextBox ID="txtOption4" runat="server" Placeholder="Option 4"></asp:TextBox>
+        </asp:Panel>
         <br /><br />
 
         <asp:Button ID="btnAdd" runat="server" Text="Add Question" OnClick="btnAdd_Click" />
