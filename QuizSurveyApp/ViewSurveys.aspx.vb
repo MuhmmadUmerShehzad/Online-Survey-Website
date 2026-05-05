@@ -16,11 +16,6 @@ Partial Class ViewSurveys
                 Exit Sub
             End If
 
-            ' BUG FIX #1 — Role label moved BEFORE the UserID line.
-            ' Previously, if Session("UserID") was Nothing, line
-            '   lblMsg.Text = "UserID: " & Session("UserID").ToString()
-            ' threw a NullReferenceException, which the empty Catch swallowed
-            ' silently — so lblUserRole.Text was never reached and stayed blank.
             lblUserRole.Text = Session("UserRole").ToString()
 
             If Session("UserID") IsNot Nothing Then
@@ -34,10 +29,6 @@ Partial Class ViewSurveys
             End If
 
         Catch ex As Exception
-            ' BUG FIX #2 — Never leave Catch blocks empty.
-            ' Empty Catch was silently swallowing ALL exceptions (DB errors,
-            ' null-reference errors, etc.), making both the role label and the
-            ' GridView appear empty with no indication of what went wrong.
             lblMsg.Text = "Error: " & ex.Message
         End Try
     End Sub
