@@ -8,9 +8,7 @@
 <body>
     <form id="form1" runat="server">
         <h2>User Responses</h2>
-        <div style="background-color: #e8f4fd; padding: 10px; margin-bottom: 20px; border: 1px solid #b3d7ff; border-radius: 5px;">
-            Role: <asp:Label ID="lblUserRole" runat="server" Font-Bold="true"></asp:Label>
-        </div>
+
 
         <asp:Label ID="lblMsg" runat="server"></asp:Label>
         <br /><br />

@@ -50,7 +50,7 @@ Partial Class Login
                 End If
 
             Else
-                lblError.Text = "Invalid username or password" + username + "" + password
+                lblError.Text = "Invalid username or password"
             End If
 
         Catch ex As Exception

@@ -14,7 +14,7 @@ Partial Class TakeSurvey
         End If
 
         If Not IsPostBack Then
-            lblUserRole.Text = Session("UserRole").ToString()
+
             lblUserName.Text = Session("UserName").ToString()
 
             If Session("SurveyID") IsNot Nothing Then

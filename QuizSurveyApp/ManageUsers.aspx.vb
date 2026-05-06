@@ -12,7 +12,7 @@ Partial Class ManageUsers
             Response.Redirect("Login.aspx")
         End If
 
-        lblUserRole.Text = Session("UserRole").ToString()
+
 
         If Not IsPostBack Then
             LoadUsers()

@@ -16,7 +16,7 @@ Partial Class ViewSurveys
                 Exit Sub
             End If
 
-            lblUserRole.Text = Session("UserRole").ToString()
+
 
             If Session("UserID") IsNot Nothing Then
                 lblMsg.Text = "UserID: " & Session("UserID").ToString()
@@ -41,11 +41,13 @@ Partial Class ViewSurveys
             ' Builders only see their own surveys, others see all
             If Session("UserRole").ToString() = "Builder" Then
                 query &= " WHERE CreatedBy = @uid"
+            ElseIf Session("UserRole").ToString() = "Surveyor" Then
+                query &= " WHERE SurveyID NOT IN (SELECT SurveyID FROM Responses WHERE UserID = @uid)"
             End If
 
             Dim cmd As New SqlCommand(query, con)
 
-            If Session("UserRole").ToString() = "Builder" Then
+            If Session("UserRole").ToString() = "Builder" OrElse Session("UserRole").ToString() = "Surveyor" Then
                 cmd.Parameters.AddWithValue("@uid", Session("UserID"))
             End If
 

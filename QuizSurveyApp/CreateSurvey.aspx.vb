@@ -32,7 +32,7 @@ Partial Class CreateSurvey
             Response.Redirect("Login.aspx")
         End If
 
-        lblUserRole.Text = Session("UserRole").ToString()
+
 
         If Not IsPostBack Then
             GetTable()

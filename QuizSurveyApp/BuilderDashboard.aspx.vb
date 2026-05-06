@@ -7,7 +7,7 @@ Partial Class BuilderDashboard
         End If
 
         lblWelcome.Text = "Welcome Survey Builder!"
-        lblUserRole.Text = Session("UserRole").ToString()
+
     End Sub
 
     Protected Sub btn_Create_Summary() Handles btnCreateSurvey.Click

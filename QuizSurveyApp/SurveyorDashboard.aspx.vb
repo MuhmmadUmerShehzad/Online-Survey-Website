@@ -7,7 +7,7 @@ Partial Class SurveyorDashboard
         End If
 
         lblWelcome.Text = "Welcome Surveyor!"
-        lblUserRole.Text = Session("UserRole").ToString()
+
     End Sub
 
     Protected Sub btnTakeSurvey_Click(sender As Object, e As EventArgs) Handles btnTakeSurvey.Click

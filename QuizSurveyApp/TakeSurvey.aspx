@@ -11,7 +11,6 @@
             <h2>Take Survey: <asp:Label ID="lblSurveyTitle" runat="server"></asp:Label></h2>
 
             <div style="background-color: #e8f4fd; padding: 10px; margin-bottom: 20px; border: 1px solid #b3d7ff; border-radius: 5px;">
-                Role: <asp:Label ID="lblUserRole" runat="server" Font-Bold="true"></asp:Label> | 
                 User: <asp:Label ID="lblUserName" runat="server" Font-Bold="true"></asp:Label>
             </div>
 

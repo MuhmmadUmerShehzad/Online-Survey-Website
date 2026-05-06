@@ -7,7 +7,7 @@ Partial Class AdminDashboard
         End If
 
         lblWelcome.Text = "Welcome Admin!"
-        lblUserRole.Text = Session("UserRole").ToString()
+
     End Sub
 
     Protected Sub btnManageUsers_Click(sender As Object, e As EventArgs) Handles btnManageUsers.Click
