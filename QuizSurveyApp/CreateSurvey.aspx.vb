@@ -1,3 +1,10 @@
+' ==========================================
+' Project: Online Survey System
+' Description: Survey Creation Page Logic
+' Author: University Student
+' Date: 2026-05-11
+' ==========================================
+
 Imports System.Data
 Imports System.Data.SqlClient
 Imports System.Web.Configuration
